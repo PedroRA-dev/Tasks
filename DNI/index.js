@@ -1,4 +1,3 @@
-// entrada del usuario
 
 const calcularLetra = (numeroDNI) => {
     let letra = letrasDNI.charAt(numeroDNI % 23)
@@ -22,9 +21,6 @@ else {
     alert(`La letra del DNI es ${letraDNI}`)
 
 }
-
-
-// que el modulo no supere 23
 
 
 
